@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args) {
+        Coches micoche = new Coches();
+        micoche.NumeroPuertas();
+        System.out.println("El coche tiene "+micoche.puertas+" "+"Puertas");
+    }
+    }
+    class Coches {
+        public int puertas = 4;
+
+        public void NumeroPuertas() {
+            this.puertas++;
+        }
+    }
